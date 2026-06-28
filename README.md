@@ -1,6 +1,6 @@
 # TrueRestore Account Research Agent
 
-An agentic account research tool built for TrueRestore — a restoration estimation SaaS company. When an Account Executive submits a company name in HubSpot, Claude runs a full research loop and drops a battle card into Slack so the AE walks into every call prepared.
+An agentic account research tool built for TrueRestore — a restoration estimation SaaS company. When an Account Executive gives a target restoration company, Claude runs a full research loop and drops a battle card into Slack so the AE walks into every call prepared.
 
 ---
 
@@ -9,7 +9,7 @@ An agentic account research tool built for TrueRestore — a restoration estimat
 Claude is the brain. It decides the tool sequence, checks guardrails, and builds the battle card. Python executes what Claude asks for and nothing more. The intelligence lives in the system prompt — when the ICP shifts or the battle card format changes, you update the prompt, not the code.
 
 ```
-AE submits company in HubSpot
+AE gives a target restoration company
         ↓
   Check local cache
         ↓
