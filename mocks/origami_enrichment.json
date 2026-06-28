@@ -1,0 +1,223 @@
+{
+  "enrichment_id": "enr_9c2d84fa",
+  "enriched_at": "2026-06-28T14:31:12Z",
+  "source": "origami",
+  "confidence": 0.91,
+  "company": {
+    "name": "Summit Restoration & Reconstruction",
+    "domain": "summitrestoresdfw.com",
+    "description": "Summit Restoration & Reconstruction is a full-service property damage restoration and general contracting firm headquartered in Irving, TX, serving the Dallas-Fort Worth metroplex. The company handles the full claim lifecycle — from emergency mitigation through structural reconstruction — primarily for residential and light commercial insurance losses. Founded by a former State Farm-preferred contractor, Summit operates 9 mitigation crews and 4 reconstruction crews across 3 service territories in DFW.",
+    "founded_year": 2008,
+    "employee_count": 72,
+    "crew_breakdown": {
+      "mitigation_crews": 9,
+      "reconstruction_crews": 4,
+      "estimators": 5,
+      "project_managers": 6,
+      "office_admin": 8
+    },
+    "revenue": {
+      "estimated_annual": "$12M–$16M",
+      "revenue_split": {
+        "insurance_claims": "78%",
+        "commercial_direct": "14%",
+        "retail_homeowner": "8%"
+      }
+    },
+    "headquarters": {
+      "address": "4820 Logistics Ave, Suite 110",
+      "city": "Irving",
+      "state": "TX",
+      "zip": "75038"
+    },
+    "service_territories": ["Irving", "Fort Worth", "Plano"],
+    "average_job_size": "$18,400",
+    "jobs_per_month": 55
+  },
+
+  "certifications_and_memberships": {
+    "iicrc": {
+      "firm_certified": true,
+      "technician_certifications": [
+        "WRT — Water Damage Restoration Technician",
+        "ASD — Applied Structural Drying",
+        "AMRT — Applied Microbial Remediation Technician",
+        "FSRT — Fire & Smoke Restoration Technician",
+        "OCT — Odor Control Technician"
+      ]
+    },
+    "industry_associations": ["RIA — Restoration Industry Association", "BDCA — Building & Damage Contractors Alliance"],
+    "contractor_programs": ["Alacrity Networks — Preferred Vendor", "Contractor Connection — Tier 1", "SteadfastNetwork — Active Member"],
+    "licensing": ["TX General Contractor License", "TX Mold Remediation License", "EPA Lead-Safe Certified Firm"]
+  },
+
+  "insurance_and_tpa_relationships": {
+    "direct_carrier_programs": [
+      {"carrier": "State Farm", "program": "State Farm Contractor Program", "status": "active", "volume": "high"},
+      {"carrier": "Allstate", "program": "Good Hands Repair Network", "status": "active", "volume": "medium"},
+      {"carrier": "USAA", "program": "USAA Preferred Contractor", "status": "active", "volume": "medium"},
+      {"carrier": "Travelers", "program": "Travelers Contractor Network", "status": "pending_renewal", "volume": "low"}
+    ],
+    "tpa_programs": [
+      {"tpa": "Alacrity", "status": "active"},
+      {"tpa": "Contractor Connection", "status": "active"},
+      {"tpa": "SteadfastNetwork", "status": "active"}
+    ],
+    "xactanalysis": {
+      "enrolled": true,
+      "submission_portal": "XactAnalysis SP",
+      "average_supplement_cycle_days": 18,
+      "supplement_denial_rate": "31%",
+      "notes": "High denial rate traced to inconsistent line item documentation and missing scope notes on field estimates."
+    }
+  },
+
+  "tech_stack": {
+    "estimation": {
+      "primary_tool": "Xactimate",
+      "version": "Xactimate Desktop 28.0",
+      "license_type": "per-seat, 5 seats",
+      "sketch_tool": "Xactimate built-in sketch (not using XactSketch mobile)",
+      "price_list": "DFW_MAR26",
+      "pain_points": [
+        "Estimators build scopes on laptops in the field then re-enter into desktop Xactimate back at the office — double entry on every job",
+        "No real-time collaboration — 5 estimators email .esx files and overwrite each other",
+        "Supplement denial rate at 31% — adjusters cite 'missing documentation' and 'unsupported line items'",
+        "Cannot attach moisture logs or drying reports directly to the Xactimate file",
+        "Sketch is slow on large commercial losses — estimators report 2–3 hours per floor plan",
+        "No audit trail when scope is revised after adjuster negotiation"
+      ]
+    },
+    "job_management": {
+      "tool": "Dash (Restoration Manager)",
+      "version": "legacy on-prem",
+      "pain_points": [
+        "No integration with Xactimate — job data is manually re-keyed",
+        "Crew scheduling is done in a shared Google Calendar outside the system"
+      ]
+    },
+    "moisture_and_drying_logs": {
+      "tool": "Paper drying logs + MoistureMapper (inconsistent use)",
+      "pain_points": [
+        "Paper logs frequently lost or illegible — creates documentation gaps on supplement support",
+        "MoistureMapper adoption is partial — only 3 of 9 crews use it consistently"
+      ]
+    },
+    "documentation_and_photo": {
+      "tools": ["CompanyCam", "iPhone camera (field)"],
+      "notes": "CompanyCam used for photo documentation but not integrated with Xactimate — estimators manually copy photo links into scope notes"
+    },
+    "accounting": "QuickBooks Online",
+    "communication": "Microsoft Teams (office), GroupMe (field crews)"
+  },
+
+  "workflow": {
+    "estimate_to_approval_cycle_days": 22,
+    "fnol_to_site_response_hours": 3.5,
+    "typical_mitigation_duration_days": 5,
+    "reconstruction_backlog_weeks": 6,
+    "current_bottlenecks": [
+      "Estimate scope documentation quality is inconsistent across 5 estimators — no standardized template",
+      "Supplements are written by the PM, not the original estimator — context is lost between handoffs",
+      "Insurer adjuster negotiations happen over email with no version control on scope revisions",
+      "Reconstruction job costing is manual — no live budget vs. actual tracking"
+    ]
+  },
+
+  "key_contacts": [
+    {
+      "name": "Marcus Delray",
+      "title": "Owner / President",
+      "linkedin": "linkedin.com/in/marcusdelray-summit",
+      "email": "marcus@summitrestoresdfw.com",
+      "decision_role": "economic_buyer",
+      "notes": "Founded Summit in 2008 after 7 years as a State Farm preferred contractor. Operationally focused. Primary concern is margin — specifically supplement recovery and reducing the cost of re-doing estimates. Attends RIA Annual every year. Active in RIA forums. Posted in April 2026: 'Anyone actually improved their supplement approval rate without hiring more people?'"
+    },
+    {
+      "name": "Priya Nair",
+      "title": "Operations Manager",
+      "linkedin": null,
+      "email": "priya.nair@summitrestoresdfw.com",
+      "decision_role": "champion",
+      "notes": "Manages estimator scheduling, XactAnalysis submissions, and TPA compliance. Day-to-day pain point owner. Likely the internal champion if she believes TrueRestore reduces her rework load. Has direct visibility into the 31% supplement denial rate."
+    },
+    {
+      "name": "Derek Okafor",
+      "title": "Lead Estimator",
+      "linkedin": "linkedin.com/in/derekokafor-restore",
+      "email": "derek.okafor@summitrestoresdfw.com",
+      "decision_role": "end_user",
+      "notes": "10 years in restoration estimating, Xactimate-certified at Level 3. Manages the 4 junior estimators. Vocal internally about double-entry pain. Viewed TrueRestore product page on 2026-06-08 and 2026-06-19. Likely an internal advocate if he sees a workflow improvement."
+    },
+    {
+      "name": "Tamara Wells",
+      "title": "Reconstruction Project Manager",
+      "linkedin": null,
+      "email": "tamara.wells@summitrestoresdfw.com",
+      "decision_role": "influencer",
+      "notes": "Manages the 4 reconstruction crews and subcontractor relationships. Frustrated with the Xactimate-to-Dash handoff gap. Would benefit from better scope-to-budget traceability."
+    }
+  ],
+
+  "signals": [
+    {
+      "type": "intent",
+      "signal": "Derek Okafor (Lead Estimator) visited TrueRestore.com/pricing twice in the last 30 days.",
+      "date": "2026-06-19",
+      "strength": "high"
+    },
+    {
+      "type": "hiring",
+      "signal": "Summit posted 2 Field Estimator job listings on Indeed — scaling estimating capacity, which increases the cost of bad tooling.",
+      "date": "2026-05-28",
+      "strength": "medium"
+    },
+    {
+      "type": "pain",
+      "signal": "Marcus Delray posted in RIA Community Forum: 'Anyone actually improved their supplement approval rate without hiring more people?' — 14 replies, active thread.",
+      "date": "2026-04-11",
+      "strength": "high"
+    },
+    {
+      "type": "event",
+      "signal": "Attended RIA Annual Conference 2026 in Nashville — AE Jordan Malone made initial contact on-site.",
+      "date": "2026-06-20",
+      "strength": "medium"
+    },
+    {
+      "type": "compliance",
+      "signal": "Travelers contractor program up for renewal in Q3 2026 — Summit needs clean XactAnalysis submission history to qualify. Current 31% denial rate is a risk.",
+      "date": "2026-07-01",
+      "strength": "high"
+    }
+  ],
+
+  "competitive_landscape": {
+    "current_primary_tool": "Xactimate Desktop (Verisk)",
+    "tools_evaluated_previously": ["Symbility (CoreLogic)", "Encircle"],
+    "why_they_stayed_on_xactimate": [
+      "Carrier requirement — State Farm and Allstate mandate Xactimate-formatted estimates for large losses",
+      "Team is fully trained — retraining cost is perceived as high",
+      "No internal champion had time to run a proper evaluation"
+    ],
+    "likely_objections": [
+      "Carriers require Xactimate output — can TrueRestore export compliant .esx files?",
+      "We have 5 estimators trained on Xactimate — what's the retraining burden?",
+      "Show me the ROI — specifically what does this do to our supplement denial rate?",
+      "Will this work inside XactAnalysis SP for our TPA submissions?"
+    ],
+    "trurestore_differentiators_to_lead_with": [
+      "Xactimate-compatible output — no carrier workflow disruption",
+      "Mobile-first field capture eliminates double entry (field → desktop re-key)",
+      "Scope standardization templates reduce the inconsistency driving the 31% denial rate",
+      "Integrated moisture log and drying report attachment — closes the biggest supplement documentation gap",
+      "Audit trail on scope revisions — supports adjuster negotiation with version history"
+    ]
+  },
+
+  "firmographic_score": {
+    "icp_fit": "high",
+    "score": 91,
+    "rationale": "72-person full-service restoration firm, $14M ARR, insurance-driven (78% of revenue), active on 4 TPA programs, 5 Xactimate seats, 31% supplement denial rate creating direct margin pain, active intent signals from lead estimator, and a carrier renewal deadline creating urgency. Squarely in TrueRestore's ICP."
+  }
+}

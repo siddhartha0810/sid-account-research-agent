@@ -1,0 +1,31 @@
+{
+  "portalId": 12345678,
+  "objectType": "company",
+  "subscriptionType": "company.creation",
+  "occurredAt": "2026-06-28T14:30:00Z",
+  "properties": {
+    "hs_object_id": "987654321",
+    "name": "Summit Restoration & Reconstruction",
+    "domain": "summitrestoresdfw.com",
+    "industry": "Restoration & Reconstruction Services",
+    "phone": "+1-972-555-0147",
+    "address": "4820 Logistics Ave, Suite 110",
+    "city": "Irving",
+    "state": "TX",
+    "zip": "75038",
+    "country": "US",
+    "numberofemployees": "72",
+    "annualrevenue": "14200000",
+    "submitted_by_ae": "Jordan Malone",
+    "ae_notes": "Met Marcus at RIA Annual in Nashville. Full-service shop doing both mitigation and reconstruction. Currently on Xactimate desktop — estimators are complaining about supplement turnaround and they had a bad audit last quarter because of inconsistent scope documentation. Marcus mentioned they are losing about 8-10% of estimate value on supplements that insurers push back on. Seems open to change but will need ROI proof.",
+    "hubspot_owner_id": "ae_user_001",
+    "createdate": "2026-06-28T14:30:00Z",
+    "hs_lead_status": "NEW",
+    "lifecyclestage": "lead",
+    "restoration_segment": "full_service",
+    "primary_work_type": "insurance_claims",
+    "tpa_relationships": "Alacrity, Contractor Connection, SteadfastNetwork",
+    "carrier_relationships": "State Farm, Allstate, USAA, Travelers",
+    "xactimate_user": "true"
+  }
+}
